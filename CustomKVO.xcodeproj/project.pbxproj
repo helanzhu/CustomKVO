@@ -69,17 +69,41 @@
 		7911D61D22BBD6B6003B8CA5 /* CustomKVO */ = {
 			isa = PBXGroup;
 			children = (
+				7911D63522BBD8D6003B8CA5 /* Model */,
+				7911D63422BBD8A1003B8CA5 /* KV0Info */,
+				7911D63322BBD86B003B8CA5 /* RuntimeInfo */,
+				7911D62922BBD6D7003B8CA5 /* Employee.h */,
+				7911D62D22BBD6D8003B8CA5 /* main.m */,
+			);
+			path = CustomKVO;
+			sourceTree = "<group>";
+		};
+		7911D63322BBD86B003B8CA5 /* RuntimeInfo */ = {
+			isa = PBXGroup;
+			children = (
 				7911D62822BBD6D7003B8CA5 /* CCFetchObjectInfo.h */,
 				7911D62B22BBD6D7003B8CA5 /* CCFetchObjectInfo.m */,
+			);
+			path = RuntimeInfo;
+			sourceTree = "<group>";
+		};
+		7911D63422BBD8A1003B8CA5 /* KV0Info */ = {
+			isa = PBXGroup;
+			children = (
 				7911D62A22BBD6D7003B8CA5 /* CCObserverInfo.h */,
 				7911D62522BBD6D7003B8CA5 /* CCObserverInfo.m */,
-				7911D62922BBD6D7003B8CA5 /* Employee.h */,
-				7911D62C22BBD6D7003B8CA5 /* Employee.m */,
-				7911D62D22BBD6D8003B8CA5 /* main.m */,
 				7911D62622BBD6D7003B8CA5 /* NSObject+CCKVO.h */,
 				7911D62722BBD6D7003B8CA5 /* NSObject+CCKVO.m */,
 			);
-			path = CustomKVO;
+			path = KV0Info;
+			sourceTree = "<group>";
+		};
+		7911D63522BBD8D6003B8CA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7911D62C22BBD6D7003B8CA5 /* Employee.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
